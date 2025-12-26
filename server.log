@@ -1,0 +1,48 @@
+
+============================================================
+🚀 AWB Scraper Server Running
+============================================================
+   Port: 3001
+   API: http://localhost:3001/api/scrape
+   Health: http://localhost:3001/api/health
+============================================================
+
+
+📦 Scraping request received:
+   Service: gmr (2)
+   AWB: 05702758932
+   Fetching: https://international.gmrgroup.in/TrackAndTrace/CARGO/CargoTrackingdetailBeforeLogin.aspx?awbpfx=057&cod_awb_num=02758932&pageno=0&VTSrno=0&totVT=0
+✅ Scraping successful!
+   Tables extracted: 12
+   URL: https://international.gmrgroup.in/TrackAndTrace/CARGO/CargoTrackingdetailBeforeLogin.aspx?awbpfx=057&cod_awb_num=02758932&pageno=0&VTSrno=0&totVT=0
+
+
+📦 Scraping request received:
+   Service: gmr (2)
+   AWB: 09837449215
+   Fetching: https://international.gmrgroup.in/TrackAndTrace/CARGO/CargoTrackingdetailBeforeLogin.aspx?awbpfx=098&cod_awb_num=37449215&pageno=0&VTSrno=0&totVT=0
+✅ Scraping successful!
+   Tables extracted: 6
+   URL: https://international.gmrgroup.in/TrackAndTrace/CARGO/CargoTrackingdetailBeforeLogin.aspx?awbpfx=098&cod_awb_num=37449215&pageno=0&VTSrno=0&totVT=0
+
+
+📦 Scraping request received:
+   Service: dcsc (1)
+   AWB: 09837449215
+   DCSC URL: https://dcsc.in:7002/DCSC_webportal/GetAWBExportTracking.do
+   AWB Prefix: 098, Number: 37449215
+   Payload: awbpfx=098&cod_awb_num=37449215
+   Response length: 22865 bytes
+✅ Scraping successful!
+   Tables extracted: 2
+   URL: https://dcsc.in:7002/DCSC_webportal/GetAWBExportTracking.do (POST: awbpfx=098, cod_awb_num=37449215)
+
+
+📦 Scraping request received:
+   Service: gmr (2)
+   AWB: 05702758932
+   Fetching: https://international.gmrgroup.in/TrackAndTrace/CARGO/CargoTrackingdetailBeforeLogin.aspx?awbpfx=057&cod_awb_num=02758932&pageno=0&VTSrno=0&totVT=0
+✅ Scraping successful!
+   Tables extracted: 12
+   URL: https://international.gmrgroup.in/TrackAndTrace/CARGO/CargoTrackingdetailBeforeLogin.aspx?awbpfx=057&cod_awb_num=02758932&pageno=0&VTSrno=0&totVT=0
+
